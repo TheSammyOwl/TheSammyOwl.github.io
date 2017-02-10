@@ -1,0 +1,37 @@
+body {width: 900px;
+    height: 800px;
+    background-color: aqua;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 20s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 20s; 
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    from {background-color: aqua;}
+    to {background-color: yellow;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color: red;}
+    15%  {background-color: yellow;}
+    30%  {background-color: blue;}
+    45% {background-color: green;}
+    60% {background-color: silver}
+    75% {background-color: gold}
+    90% {background-color: whitesmoke}
+    100% {background-color:aqua}
+}
+
+   
+
+
+p{font-family: cursive; font-size: 40; font-weight: bolder;}
+
+
+
+
+
+
